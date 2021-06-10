@@ -1,3 +1,5 @@
+package model;
+
 import jakarta.xml.bind.annotation.XmlElement;
 import jakarta.xml.bind.annotation.XmlRootElement;
 
@@ -34,7 +36,7 @@ public class PhoneNumber {
 
     @Override
     public String toString() {
-        return "PhoneNumber{" +
+        return "model.PhoneNumber{" +
                 "networkCode=" + networkCode +
                 ", subscriberNumber=" + subscriberNumber +
                 '}';

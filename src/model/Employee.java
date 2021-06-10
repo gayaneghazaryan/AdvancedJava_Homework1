@@ -1,7 +1,9 @@
-import com.sun.xml.txw2.annotation.XmlAttribute;
+package model;
+
 import jakarta.xml.bind.annotation.XmlElement;
 
 import jakarta.xml.bind.annotation.XmlRootElement;
+import model.PhoneNumber;
 
 import java.io.Serializable;
 
@@ -15,11 +17,10 @@ public class Employee implements Serializable {
     public Employee(){
     }
 
-    public Employee(String name, int birthYear, String position, PhoneNumber phoneNumber) {
+    public Employee(String name, int birthYear, String position) {
         this.name = name;
         this.birthYear = birthYear;
         this.position = position;
-        this.phoneNumber = phoneNumber;
 
     }
 
@@ -61,7 +62,7 @@ public class Employee implements Serializable {
 
     @Override
     public String toString() {
-        return "Employee{" +
+        return "model.Employee{" +
                 "name='" + name + '\'' +
                 ", birthYear=" + birthYear +
                 ", position='" + position + '\'' +
