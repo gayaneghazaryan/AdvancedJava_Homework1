@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<employee>
+    <birthYear>2000</birthYear>
+    <name>Sargis Ghazaryan</name>
+    <phoneNumber>
+        <networkCode>098</networkCode>
+        <subscriberNumber>232323</subscriberNumber>
+    </phoneNumber>
+    <position>manager</position>
+</employee>
